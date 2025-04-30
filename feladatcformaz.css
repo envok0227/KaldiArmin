@@ -1,0 +1,119 @@
+body{
+    background-color: #E6E1C5;
+    font-family: Tinos;
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+}
+
+header{
+    background-color: #333;
+    opacity: 0.99;
+    padding: 10px;
+    text-align: center;
+}
+
+#source{
+    vertical-align: text-bottom;
+    text-decoration: none;
+    letter-spacing: 5px;
+    cursor:help;
+}
+
+table{
+    font-size:40px;
+    width: 70%;
+    margin: auto;
+    border: #ED5945 5px solid;
+    background-color:#E6E1C5;
+}
+
+img{
+    width: 15%;
+    height: 15%;
+    box-shadow: 5px 5px 5px #4C4C4C;
+    float: middle;
+}
+
+.headers{
+    color: white;
+}
+
+td{
+    border: #4C4C4C 5px solid;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    font-size: 30px;
+    color:black;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color:white;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color:--bs-sage #D4CB92;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color:--bs-sage #D4CB92;
+}
+
+p{
+    font-size: 25px;
+    color:--bs-davygray #4C4C4C;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.highlight{
+    --bs-tomato: #ED5945;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Tinos;
+    src: url(Tinos-Regular.ttf);
+}
+
+@font-face {
+    font-family: Tinos;
+    src: url(Tinos-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Tinos;
+    src: url(Tinos-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Tinos;
+    src: url(Tinos-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+

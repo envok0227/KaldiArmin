@@ -1,0 +1,158 @@
+div{
+    display: inline-block;
+   
+}
+img{
+    max-width: 30%;
+    height: auto;
+    display: inline;
+    padding: 20px;
+    float: left;
+}
+
+.it{
+    font-style: italic;
+    font-weight: bold;
+}
+body{
+    margin: 10px;
+    font-family: Tinos;
+    background-color: var(--bs-sage);
+    color: var(--bs-davygray);
+    letter-spacing: 0.01cm;
+}
+main>div{
+    background-color: var(--bs-pearl);
+}
+h1{
+    background-color: var(--bs-tomato);
+    text-align: center;
+    width: 100%
+}
+nav{
+    text-decoration: none;
+    font-size: large;
+}
+nav>a{
+    text-decoration: none;
+    color: var(--bs-pearl);
+    font-size: x-large;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+form>div{
+    display: block;
+}
+
+table:first-child{
+    font-weight: bold;
+    
+}
+th{
+    text-align: center;
+}
+table{
+    width: 50%;
+    margin: auto;
+    font-size: larger;
+    border: solid var(--bs-dimgray) 2px;
+}
+td{
+    border: solid var(--bs-dimgray) 2px;
+    text-align: center;
+}
+
+table{
+    background-color: var(--bs-pearl);
+}
+header{
+    width: 100%;
+    background-color: var(--bs-davygray);
+    height: auto;
+}
+#kezdetekkep{
+    float: right;
+    
+}
+
+footer{
+    height: 70px;
+    background-color: var(--bs-davygray);
+    margin-top: 6px;
+    text-align: center;
+}
+
+#forras{
+    padding-top: 3px;
+}
+#forrasgomb{
+    background-color: var(--bs-pearl);
+}
+#keszit{
+    color: dimgray;
+}
+img[alt="Ady Endre írása"]{
+    border-radius: 35px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Színkódok: */
+:root{
+    --bs-davygray: #4C4C4C;
+    --bs-dimgray: #636363;
+    --bs-pearl: #E6E1C5;
+    --bs-sage: #D4CB92;
+    --bs-tomato: #ED5945;
+}
+@font-face {
+    font-family: Tinos;
+    src: url(Tinos-Regular.ttf);
+}
+
+@font-face {
+    font-family: Tinos;
+    src: url(Tinos-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Tinos;
+    src: url(Tinos-Italic.ttf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Tinos;
+    src: url(Tinos-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
